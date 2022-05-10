@@ -4,6 +4,5 @@ from django.template import Context, loader
 
 
 def index(request):
-  return HttpResponse("HOME")
-  #return render(request, 'app/index.html')
-# Create your views here.
+    return render(request, 'index.html')
+#  Create your views here.
